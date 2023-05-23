@@ -15,7 +15,7 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-mort_df_raw = load_data(path="data/morts.csv")
+mort_df_raw = load_data(path="data/raw/morts.csv")
 mort_df = deepcopy(mort_df_raw)
 
 # Add title and header
